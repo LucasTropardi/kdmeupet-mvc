@@ -1,0 +1,24 @@
+{
+    "name": "kdmeupet/kdmeupetplis",
+    "description": "Site para publicações de animais achados e perdidos",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Kdmeupet\\Kdmeupetplis\\": "src/",
+            "app\\":"app/",
+            "core\\":"app/core/"
+        },
+        "files":[
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "kdmeupetGroup"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    }
+}
