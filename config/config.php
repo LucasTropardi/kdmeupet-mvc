@@ -5,6 +5,8 @@ include ROOT . "/app/views/partials/header.php";
 ?>
 
 <!-- O conteúdo da página vai aqui -->
+<?php include ROOT . "/app/views/partials/logout-modal.php" ?>
+
 
 <?php include ROOT . "/app/views/partials/footer.php"; ?>
 

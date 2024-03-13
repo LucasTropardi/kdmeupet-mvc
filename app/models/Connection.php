@@ -16,6 +16,7 @@ abstract class Connection
             return $conn;
         } catch (\PDOException $e) {
             echo "erro: " . $e->getMessage();
+            exit;
         }
     }
 }
